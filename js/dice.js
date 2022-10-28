@@ -5,7 +5,7 @@ class DiceManager {
         this._numberOfDice = 1;
         this._numbers = [];
         this._currentRollTime = 0;
-        this._rollTime = 5000;
+        this._rollTime = 50;
         this._diceLowerBound = 1;
         this._diceUpperBound = 6;
         this._dicePointBonus = 0;
