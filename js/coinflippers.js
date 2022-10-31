@@ -4,7 +4,7 @@ class CoinflipperManager {
         this._headerElement = document.getElementById(headerID);
         this._informationElement = document.getElementById(informationID);
         this._containerElement = document.getElementById(containerID);
-        this._numberOfCoinflippers = 0;
+        this._numberOfCoinflippers = 100;
         this._coinFlipperCost = 100;
         this._coinFlipperCostMult = 1.1;
         this._totalHeadsFlipped = 0;
