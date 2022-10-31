@@ -10,9 +10,9 @@ class CoinflipperManager {
         this._totalHeadsFlipped = 0;
         this._totalTailsFlipped = 0;
         this._totalSidesFlipped = 0;
-        this._SideChance = 0.99
+        this._SideChance = 99.99;
         this._currentFlipTime = -1;
-        this._flipTime = 1000;
+        this._flipTime = 10;
         this._currentHeads = 0;
         this._currentTails = 0;
         this._currentSides = 0;
